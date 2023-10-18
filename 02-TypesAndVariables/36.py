@@ -1,0 +1,6 @@
+S=float(input("Bank sells euro for:\n"))
+B=float(input('Bank buys euro for:\n'))
+print('Bank sells euro for:' , round(S, 4))
+print('Bank buys euro for:', round(B, 4))
+Spread=round(S, 4)-round(B, 4)
+print('Spread:', round(Spread, 4))
